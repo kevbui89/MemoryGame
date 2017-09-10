@@ -1,0 +1,127 @@
+/*
+    Author : Kevin Bui
+    Student ID : 1437878
+*/
+
+body {
+  background-image: url("images/wallpaper.png");
+}
+
+@font-face
+{
+font-family: bn;
+src: url("fonts/BebasNeue.otf");
+}
+
+#title {
+    font-family: bn;
+    color: yellow;
+    font-size: 400%;
+    margin-left : 770px;
+}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1920px;
+    height:1080px;
+    margin-bottom: 125px;
+}
+
+#game {
+    float:left;
+    width: 825px;
+    height:825px;
+    border-radius: 25px;
+    border: 3px solid yellow;
+}
+
+#instructionsSection {
+  float: left;
+  width: 19.2%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 105px;
+  background-color: black;
+  border-radius: 25px;
+  border: 3px solid yellow;
+}
+
+#instructionDetails {
+  font-family: bn;
+  color: white;
+  text-align: center;
+  font-size: 145%
+}
+
+#instructions {
+  font-family: bn;
+  color: yellow;
+  text-align: center;
+  font-size: 225%;
+
+}
+
+#backImage {
+  margin-top: 10px;
+  margin-left: 490px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  display: block;
+  max-width: 100%;
+  position:absolute;
+  z-index: -1;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.backOfCard {
+    position: relative; 
+    height: 100%;	
+    width: 100%;
+    z-index: 0;
+}
+
+.image {
+  height:200px;
+  width:200px;
+  float:left;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid yellow;
+}
+
+#button {
+  margin-top: 30px;
+  margin-left: 150px;
+  position:absolute;
+  margin-right: 350px;
+  border-radius: 12px;
+  background: black;
+  border-radius: 28px;
+  border: 3px solid yellow;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+}
+
+#c1 {
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+#c2, #c3, #c4 {
+    margin-top: 8px;
+}
+
+#c5, #c9, #c13 {
+    margin-left: 8px;
+}
+
+#cred {
+  font-family: bn;
+  color: yellow;
+  text-align: center;
+  font-size: 145%;
+  margin-top: 950px;
+}
+

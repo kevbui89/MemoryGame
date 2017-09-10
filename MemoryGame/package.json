@@ -1,0 +1,8 @@
+{
+    "name": "MemoryGameModified",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "Kevin",
+    "contributors": [],
+    "dependencies": {}
+}
